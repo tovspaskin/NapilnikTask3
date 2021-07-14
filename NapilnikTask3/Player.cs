@@ -41,7 +41,7 @@ namespace NapilnikTask3
 
         public void ExitRoom()
         {
-            _room.EnterPlayer(this);
+            _room.ExitPlayer(this);
             _room = null;
         }
 
